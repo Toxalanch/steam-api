@@ -13,4 +13,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = 
+Homepage = "https://github.com/Toxalanch/steam-api"
+Issues = "https://github.com/Toxalanch/steam-api/issues"
