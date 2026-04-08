@@ -14,3 +14,4 @@ REM +app_update makes sure that game is both installed and updated, and makes su
 REM +app_run runs the game based on the appid
 REM +exit exits the steamcmd cli when the process is finished
 steamcmd.exe -arg1 +login %USERNAME% %PASSWORD% +app_update %APPID% +app_run %APPID% +exit
+EXIT %ERRORLEVEL%

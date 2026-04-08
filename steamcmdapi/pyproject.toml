@@ -11,13 +11,14 @@ classifiers = [
     "programming Language :: Python :: 3",
     "Operating System :: Windows"
 ]
+dependencies = [
+    "pyyaml"
+]
 
 [project.urls]
 Homepage = "https://github.com/Toxalanch/steam-api"
 Issues = "https://github.com/Toxalanch/steam-api/issues"
 
-[tool.setuptools]
-include-package-data = true
-
-[tool.setuptools.package-data]
-"steamcmd_api" = ["data/config.yml", "data/steamcmd_scripts/windows/*.bat"]
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

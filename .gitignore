@@ -3,3 +3,4 @@ __pycache__/
 *.$py.class
 config.yml
 project.outline
+steamcmd_api.egg-info/
