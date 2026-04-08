@@ -1,0 +1,16 @@
+[project]
+name = "steamcmd_api"
+version = "0.0.1"
+authors = [
+    { name="Toxalanch" }
+]
+description = "A package built for interacting with steamcmd, built mainly for the ability to run games and get the app ids of games that I own"
+readme = "README.md"
+requires-python = ">=3.13.5"
+classifiers = [
+    "programming Language :: Python :: 3",
+    "Operating System :: Windows"
+]
+
+[project.urls]
+Homepage = 
